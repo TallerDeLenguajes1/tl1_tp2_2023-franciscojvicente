@@ -1,0 +1,5 @@
+- al principio no pude ver el archivo tp2_1_2.c supongo que porque estaba situado en la rama main y ese archivo estaba en Opcion_2
+
+- noto que se abre como una rama, graficamente el cambio es notorio, con palabras se me complica explicarlo.
+
+- ahora por lo que se ve, Opcion_2 es una subrama de la rama principal main, es decir, al ser combinadas, Opcion_2 deja de ser una rama para ser una subrama.
