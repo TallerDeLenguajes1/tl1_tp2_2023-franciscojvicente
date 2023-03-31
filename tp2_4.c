@@ -26,12 +26,12 @@ int main () {
         compu[i].velocidad = rand () % 3 + 1;
         compu[i].anio = rand () % 9 + 2015;
         compu[i].cantidad = rand () % 8 + 1;
-        compu[i].tipo_cpu = 
+        compu[i].tipo_cpu = 1;
     }
     
-    mostrar(compu[TAMA]); //esos son los parametros a enviar?
-    masVieja(compu[TAMA]);
-    masRapida(compu[TAMA]);
+    mostrar(compu);
+    masVieja(compu);
+    masRapida(compu);
 
     return 0;
 }
@@ -43,7 +43,7 @@ void mostrar (PC compu[]) {
         printf("La velocidad de la computadora %d es: %d GHz.",i, compu[i].velocidad);
         printf("El anio de la computadora %d es: %d",i, compu[i].anio);
         printf("La cantidad de disponibles de la computadora %d es: %d", i, compu[i].cantidad);
-        printf("El tipo es CPU de la computadora %d es: %c", i, );
+        printf("El tipo es CPU de la computadora %d es: %c", i,);
     }
 }
 
